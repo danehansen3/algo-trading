@@ -1,0 +1,12 @@
+[project]
+name = "algo-trading"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "nautilus-trader>=1.202.0",
+    "polars>=1.32.0",
+    "websockets>=15.0.1",
+]
