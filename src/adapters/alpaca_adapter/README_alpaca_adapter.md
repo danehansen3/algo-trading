@@ -13,22 +13,6 @@ This adapter provides integration between NautilusTrader and Alpaca Markets, ena
 - **Position Management**: Real-time position tracking and reporting
 - **Rate Limiting**: Built-in rate limiting to comply with Alpaca's API limits
 
-## Installation
-
-1. Install the required dependencies:
-```bash
-pip install -r requirements_alpaca.txt
-```
-
-2. Ensure you have NautilusTrader installed:
-```bash
-pip install nautilus_trader
-```
-
-3. Copy the adapter files to your NautilusTrader installation:
-```bash
-cp -r nautilus_trader/adapters/alpaca/ /path/to/nautilus_trader/adapters/
-```
 
 ## Configuration
 
